@@ -1,0 +1,54 @@
+body { font-family: sans-serif; 
+       margin: 0; 
+	   padding: 0; }
+
+
+.navbar { display: flex; 
+         justify-content:space-between; 
+		 padding: 20px; 
+		 background: #333; 
+		 color: white; }
+		 
+.nav-links { display: flex; 
+            list-style: none; 
+            gap: 20px; }
+			
+.signin-btn { background: #007bff; 
+             color: white; 
+			 border: none; 
+			 padding: 5px 15px; }
+
+
+.hero { background: #ddd; 
+        padding: 50px; 
+		text-align: center; }
+		
+.guidance { background: #d32f2f; 
+            color: white; 
+			padding: 40px; 
+			text-align: center; }
+			
+.guidance-btns button { margin: 10px;
+                        padding: 10px 20px;
+						border: 1px solid white; 
+						background: transparent; 
+						color: white; }
+
+.business { padding: 50px; 
+            text-align: center; 
+			background: #f4f4f4; }
+
+
+.footer { display: flex; 
+          justify-content: space-around; 
+		  background: #333; 
+		  color: white; 
+		  padding: 40px; }
+
+.logo {width:50px; 
+       height:50px; 
+	   border-radius:50%;}
+	   
+.btntype{padding:10px;
+         border-radius:10px;
+		 border:2px dashed black;}
