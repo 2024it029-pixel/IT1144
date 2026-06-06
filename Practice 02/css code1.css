@@ -1,0 +1,23 @@
+.aaa{background-color:blue;
+	     display:flex;
+		 margin:10px;
+		 justify-content:center;
+		 box-shadow:0 8px 10px gray;}
+		 
+.bbb{display:flex;;
+	padding:15px ;
+	aling-items:center;
+	justify-content:center;}
+	
+.ccc{border:2px solid black;
+     border-radius:10px;
+	 padding:5px;
+	 margin:5px;}
+	 
+.ddd{background-color:green;
+     border-radius:5px;
+padding:10px;}
+
+.zzz{position:sticky;
+top:0;}
+	 
