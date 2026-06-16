@@ -1,0 +1,101 @@
+.logo_img{width:40px;
+          height:40px;
+		  border-radius:50%;
+		  margin:8px;}
+		  
+.logo{display:flex}
+
+nav ul{display:flex;
+       gap:45px;}
+
+li{list-style:none;
+   transition:all 0.5 ease;
+   padding:10px;}
+li:hover{border: 1px solid #3498db;
+   border-radius:15px;}
+
+a{text-decoration:none;
+  color:white;}
+  
+ul a:hover{text-shadow:5px 10px 10px;}
+  
+.navi{display:flex;
+      justify-content:space-between;
+	  border-bottom:2px solid gray;
+	  width:80%;
+	  padding:20px;
+	  margin-top:20px;
+	  transition:all 1s ease;}
+	  
+.navi:hover{background-color:rgba(0,0,0,0.1);
+            border-radius:30px;}
+	  
+.navi1{display:flex;
+       justify-content:center;
+	   }
+
+
+.div1{display:flex;
+      justify-content:space-between;
+      margin-left:50px;
+	  margin-top:60px;}
+
+.div2{margin-left:100px;
+      padding:20px;
+      width:200px;
+	  border:1px solid #BDD4DE;
+	  border-radius:20px;
+	  margin:10px;
+	  color:#BDD4DE;}
+
+.div3{display:flex;
+      justify-content:center;
+	  gap:20px;}
+	  
+form{border:1px solid #BDD4DE;
+	 border-radius:20px;
+	 margin:10px;
+	 color:#BDD4DE;
+	 padding:20px;}
+	 
+input{width:300px;
+      height:50px;
+	  background: rgba(255, 255, 255, 0);
+	  border:1px solid gray;
+	  border-radius:15px;
+	  padding-left:10px;
+	  margin-top:15px;
+	  color:white;}
+	  
+textarea{width:300px;
+        height:70px;
+        background: rgba(255, 255, 255, 0);
+	    border:1px solid gray;
+	    border-radius:15px;
+	    padding-left:10px;
+		padding-top:8px;
+		margin-top:15px;
+		color:white;}
+		
+select{width:300px;
+       height:50px;
+	   background: rgba(255, 255, 255, 0);
+	   border:1px solid gray;
+	   border-radius:15px;
+	   padding-left:10px;
+	   margin-top:15px;
+	   color:gray;}
+	   
+.btn1{padding:8px;
+      border-radius:10px;
+	  width:80px;}
+	  
+.contact:hover{border:1px solid #e76330;
+               background: rgba(255, 255, 255, 0.01);}
+.feedback:hover{border:1px solid #e76330;
+               background: rgba(255, 255, 255, 0.01);}
+			   
+			   
+
+	 
+	  

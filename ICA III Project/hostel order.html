@@ -1,0 +1,97 @@
+<html>
+ <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNIVERSITY CANTEEN-Order Page</title>
+  
+  <link rel="icon"btype="image/png" href="logo 1.png">
+  <link rel="stylesheet" href="style  2.css">
+  
+ </head>
+ <body>
+ 
+  <diV class="backGimg">
+   <div class="navi1"">
+   <div class="navi">
+   <a style="text-shadow:none;" href="home page.html">
+    <div class="logo">
+	    <img class="logo_img" src="logo 3.png">
+		<h3>Canteen</h3>
+	</div></a>
+	
+	<nav>
+	  <ul>
+	    <a href="Home page.html"><li>Home</li></a>
+		<a href="menu.html"><li>Menu</li></a>
+		<a href="Order main page.html"><li>Order</li></a>
+		<a href="contact.html"><li>Contact</li></a>
+	  </ul>
+	 </nav>
+	 
+	 <p></p>
+	  </div>
+	  </div>
+	  
+	  <p><a href="bording order.html"><button class="btn1">●</button></a>Switch to bording house</p> 
+	  <div class="Center1"><div id="outline">
+	  <center><buttun id="btn4" onclick="showbill()" class="btn4">Show Bill</button></center>
+	  
+	  <div class="Center1">
+	  <p id="result1"></div>
+	  
+	  <div  class="funDisplay">
+	  <p id="Oname"></p>
+	  <p id="Oprice"></p>
+	  <p id="Oquantity"></p>
+	  <p id="O1total">
+	  </p>
+	  
+	  </div>
+	  <center>
+	  <a href="menu.html"><p style="color:red;" id="menumsg"></p></a>
+	  </center>
+	  </div></div>  
+	  
+	  <div class="Center1">
+	  <form>
+	  
+	  <h1>Enter Your details</h1>
+	  <hr style="width:400px;">
+	  <div class="input">
+	  <input type="text" placeholder="Enter Your Name"><br>
+	  <input type="text" placeholder="Enter Your Registation Number"><br>
+	  <input type="tel" maxlength="10" placeholder="Enter Your Mobile Number"><br>
+	  
+	  
+	  <select style="margin-right:21px;">
+	    <option>Block</option>
+		<option>A-1</option>
+		<option>B-1</option>
+		<option>B-2</option>
+	  <select>
+	  <select style="margin-left:28px; margin-right:28px;">
+	    <option>Floor</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+	 </select>
+	 <input  type="number" min="1" max="32" placeholder="Room" style="color:gray; width:130px; margin-left:21px; height:65px;"></input><br>
+	 </div>
+	 <textarea rows="3" placeholder="Mention any special requests, such as "less spicy" or "no onion,"></textarea></br>
+	 <label><input class="radio" name="paymend" type="radio" >Cash</label>
+     <label><input class="radio" name="paymend" type="radio"style="margin-left:35px;">Online Transfer</label>	
+	 <br>
+    
+    <button class="btn2" type="clear">clear</button>	
+    <button class="btn3" onclick='alert("Order Succesfully")'>Cofirm</button>	
+ </form>	
+ </div>
+ 
+ 
+ <script src="script.js"></script>
+ </body>
+ </html>
+	 
+	 
+	 
+	  

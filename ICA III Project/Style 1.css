@@ -1,0 +1,238 @@
+.backgroundImg1{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("background img1.jpg");
+                background-size:cover;
+				background-position:center;
+				}
+				
+body{background-color:black;
+     color:white;
+	 height:100%;
+	 margin:0;}
+
+.logo_img{width:40px;
+          height:40px;
+		  border-radius:50%;
+		  margin:8px;}
+		  
+.logo{display:flex}
+
+nav ul{display:flex;
+       gap:45px;}
+
+li{list-style:none;
+   transition:all 0.5 ease;
+   padding:10px;}
+li:hover{border: 1px solid #3498db;
+   border-radius:15px;}
+
+a{text-decoration:none;
+  color:white;}
+  
+ul a:hover{text-shadow:5px 10px 10px;}
+  
+.navi{display:flex;
+      justify-content:space-between;
+	  border-bottom:2px solid gray;
+	  width:80%;
+	  padding:20px;
+	  margin-top:20px;
+	  transition:all 1s ease;}
+	  
+.navi:hover{background-color:rgba(0,0,0,0.1);
+            border-radius:30px;}
+	  
+.navi1{display:flex;
+       justify-content:center;
+	   }
+	   
+.text1{margin-left:50px;
+	  font-size:25px;
+	  margin-top:150px;
+	  font-size:45px;
+	  color:#f2b705;
+	  transition:all 1s ease;}
+.text1:hover{color:white;}
+	  
+
+
+.content1{display:flex;
+          justify-content:center;
+		  width:80%;
+		  margin-top:50px;}
+		  
+.item1{padding:15px;
+       padding-left:25px;
+	   border-bottom:1px solid gray;}
+	   
+.item1:hover{border-radius:30px;
+             border:1px solid gray;}
+			 
+.menu_view{display:flex;
+           gap:8px;
+           justify-content:center;
+		   text-align:center;}
+		   
+.item2{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("breakfast.jpg");
+       background-size:cover;
+	   background-position:center;
+	   width:120px;}
+.item3{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("lunch.jpg");
+       background-size:cover;
+	   background-position:center;
+	   width:120px;}
+.item4{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("short eats.jpg");
+       background-size:cover;
+	   background-position:center;
+	   width:120px;}
+.item5{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("dinner.png");
+       background-size:cover;
+	  background-position:center;
+	   width:120px;}
+	   
+.item2:hover{border-left:1px solid orange;
+             border-right:1px solid white;}
+.item3:hover{border-left:1px solid orange;
+             border-right:1px solid white;}
+.item4:hover{border-left:1px solid orange;
+             border-right:1px solid white;}
+.item5:hover{border-left:1px solid orange;
+             border-right:1px solid white;}
+
+.text2{padding-top:160px;}
+
+.backgroundImg2{background:linear-gradient(to top, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("background img2.jpg");
+                background-size:cover;
+				background-position:center;
+				height:450px;}
+				
+.footer{backdrop-filter:blur(3px);
+        text-align:center;
+		padding:10px;
+		margin-top:15px;}
+		
+.backgroundImg3{background:linear-gradient(to bottom, rgba(0,0,0,0)0%,rgba(0,0,0,1.0)80%), url("background img3.jpg");
+                background-size:cover;
+				background-position:center;
+				height:600px;}
+				
+.display_fx{display:flex;
+            justify-content:center;}
+			
+.b01{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Breakfast images/b01.jpg");}
+.b02{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Breakfast images/b02.jpg");}
+.b03{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Breakfast images/b03.jpg");}
+.b04{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Breakfast images/b04.jpg");}
+.b05{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Breakfast images/b05.jpg");}
+.b06{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Breakfast images/b06.jpg");}
+.b07{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Breakfast images/b07.jpg");}
+.b08{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Breakfast images/b08.jpg");}
+.L0m{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Lunch images/L0M.jpg");}
+.L01{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Lunch images/L01.jpg");}
+.L02{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Lunch images/L02.jpg");}
+.L03{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Lunch images/L03.jpg");}
+.L04{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Lunch images/L04.jpg");}
+.L05{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Lunch images/L05.jpg");}
+.L06{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Lunch images/L06.jpg");}
+.L07{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Lunch images/L07.jpg");}
+.S01{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Short eats images/S01.png");}
+.S02{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Short eats images/S02.png");}
+.S03{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Short eats images/S03.jpg");}
+.S04{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Short eats images/S04.jpg");}
+.S05{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Short eats images/S05.jpg");}
+.S06{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Short eats images/S06.jpg");}
+.S07{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Short eats images/S07.jpg");}
+.S08{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Short eats images/S08.jpg");}
+.D01{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Dinner images/D01.avif");}
+.D02{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Dinner images/D02.jpg");}
+.D03{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Dinner images/D03.jpg");}
+.D04{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Dinner images/D04.jpg");}
+.D05{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Dinner images/D05.jpg");}
+.D06{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Dinner images/D06.jpg");}
+.D07{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Dinner images/D07.jpg");}
+.D08{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("Dinner images/D08.jpg");}
+
+
+.imgSET{background-size:cover;
+	    background-position:center;
+		height:250px;
+		width:150px;
+		margin-right:70px;
+		border-radius:15px;
+		padding:8px;
+		margin-top:10px;}
+		
+		
+.imgSET:hover{margin-top:5px;}
+
+.backhroundIMG4{background:linear-gradient(to top, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("background img4.jpg");
+                background-size:cover;
+				background-position:center;
+				}
+				
+.btn1{padding:20px;
+      background-color:#271847;
+	  border-radius:40px;
+      margin:100px;
+	  color:white;
+	  width:200px;
+	  font-size:30px;
+	  transition:background-color 2s ease;}
+
+	  
+.btn1:hover{background-color:green;} 
+
+.backgroundImg4{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%), url("background img4.jpg");
+                background-size:cover;
+				background-position:center;
+				height:80%;}
+				
+.orderGuide{padding:20px;
+            backdrop-filter:blur(7px);
+			border-radius:28px;
+			width:600px;
+			margin:50px;}
+			
+.btn2{padding:20px;
+      background-color:red;
+	  border-radius:40px;
+      margin:20px;
+	  color:white;
+	  width:200px;
+	  font-size:20px;
+	  transition:padding 2s ease;}
+	  
+.btn2:hover{padding:25px;}
+
+.orderTo{display:flex;
+         justify-content:space-between;
+		 padding-bottom:5px;}
+		 
+.orderRtext{border-radius:5px;
+            padding:5px;}
+			
+.backgroundImg6{background:linear-gradient(to bottom, rgba(0,0,0,0.1)0%,rgba(0,0,0,1.0)80%),url("background img5.jpg");
+                background-size:cover;
+				background-position:center;
+				height:100%;
+				}
+
+.btn3{padding:30px;
+      backdrop-filter:blur(2px);
+      border-radius:30px;
+	  margin-left:60px;
+	  background: rgba(255, 255, 255, 0.1);
+	  border: 1px solid rgba(255, 255, 255, 0.3);
+	  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	  color: white;
+	  width:30%;
+	  transition:all 2s ease;}
+	  
+.btn3:hover{border-radius:35px;
+            border: 2px solid #232F6C;
+            color:#232F6C;
+			width:35%;
+			margin-left:30px;
+			font-size:20px;}
+	  
+
+			
+			
